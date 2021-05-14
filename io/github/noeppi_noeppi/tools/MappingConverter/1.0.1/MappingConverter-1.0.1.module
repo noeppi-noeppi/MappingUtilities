@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "MappingConverter",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "fg4n5doeqjgddklhbfaaehjbzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.scala-lang",
+          "module": "scala-library",
+          "version": {
+            "strictly": "[2.13.1,2.14)",
+            "requires": "[2.13.1,2.14)",
+            "prefers": "2.13.1"
+          }
+        },
+        {
+          "group": "org.scala-lang.modules",
+          "module": "scala-parser-combinators_2.13.0-RC3",
+          "version": {
+            "strictly": "[1.1.2,)",
+            "requires": "[1.1.2,)",
+            "prefers": "1.1.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "strictly": "[1.9,)",
+            "requires": "[1.9,)",
+            "prefers": "1.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "strictly": "[2.8.6,)",
+            "requires": "[2.8.6,)",
+            "prefers": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MappingConverter-1.0.1.jar",
+          "url": "MappingConverter-1.0.1.jar",
+          "size": 396763,
+          "sha512": "4cfd5b8df03f41feb7e4f8bf44694579a6dad9fc05a878d3f2e3bc93d8b309b1e55e52d1435c3c018a21c0488c76ba8c30c509d4f0ca9fbcfae0be19024fd6bc",
+          "sha256": "c2596564717e48c76d475959162259362188549fb90996c7ada47f9e850b347a",
+          "sha1": "95970375e349a340ae84692a587d1afc363121da",
+          "md5": "7d6cac8cfc9595f46497a79c701004c6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.scala-lang",
+          "module": "scala-library",
+          "version": {
+            "strictly": "[2.13.1,2.14)",
+            "requires": "[2.13.1,2.14)",
+            "prefers": "2.13.1"
+          }
+        },
+        {
+          "group": "org.scala-lang.modules",
+          "module": "scala-parser-combinators_2.13.0-RC3",
+          "version": {
+            "strictly": "[1.1.2,)",
+            "requires": "[1.1.2,)",
+            "prefers": "1.1.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "strictly": "[1.9,)",
+            "requires": "[1.9,)",
+            "prefers": "1.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "strictly": "[2.8.6,)",
+            "requires": "[2.8.6,)",
+            "prefers": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MappingConverter-1.0.1.jar",
+          "url": "MappingConverter-1.0.1.jar",
+          "size": 396763,
+          "sha512": "4cfd5b8df03f41feb7e4f8bf44694579a6dad9fc05a878d3f2e3bc93d8b309b1e55e52d1435c3c018a21c0488c76ba8c30c509d4f0ca9fbcfae0be19024fd6bc",
+          "sha256": "c2596564717e48c76d475959162259362188549fb90996c7ada47f9e850b347a",
+          "sha1": "95970375e349a340ae84692a587d1afc363121da",
+          "md5": "7d6cac8cfc9595f46497a79c701004c6"
+        }
+      ]
+    }
+  ]
+}
