@@ -1,1 +1,1 @@
-Contains zip files with additional names that are required to merge MCP and official names together without conflicts.
+Contains zip files with additional names that are required to merge MCP and official names together without conflicts. They won't change any MCP names, just add some new names to resolve conflicts with the official mappings.
