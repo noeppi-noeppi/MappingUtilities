@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "MappingConverter",
+    "version": "1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "s3mcgs2yrbcg3c7gmdsxvybo7y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.scala-lang",
+          "module": "scala-library",
+          "version": {
+            "strictly": "[2.13.1,2.14)",
+            "requires": "[2.13.1,2.14)",
+            "prefers": "2.13.1"
+          }
+        },
+        {
+          "group": "org.scala-lang.modules",
+          "module": "scala-parser-combinators_2.13.0-RC3",
+          "version": {
+            "strictly": "[1.1.2,)",
+            "requires": "[1.1.2,)",
+            "prefers": "1.1.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "strictly": "[1.9,)",
+            "requires": "[1.9,)",
+            "prefers": "1.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "strictly": "[2.8.6,)",
+            "requires": "[2.8.6,)",
+            "prefers": "2.8.6"
+          }
+        },
+        {
+          "group": "de.siegmar",
+          "module": "fastcsv",
+          "version": {
+            "strictly": "[2.0.0,)",
+            "requires": "[2.0.0,)",
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MappingConverter-1.0.7.jar",
+          "url": "MappingConverter-1.0.7.jar",
+          "size": 410459,
+          "sha512": "5c380c4edb3ba9c659508fcc8804edd6462d6ef48f4787f83ffc7faaee5da9f1cf368a990c26267d2d58618b0bf515f70811fe7818bccf21c9037db1809e9827",
+          "sha256": "ae22ec3f4ac9a45e7a2a10b910c16823525bb7ce9be748837326fdcb7bf36adf",
+          "sha1": "ca26cbdb5d866d7ef1bb6ed11171ffa4374cf73f",
+          "md5": "76dcd9f6e62d3dd302e13e29586893a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.scala-lang",
+          "module": "scala-library",
+          "version": {
+            "strictly": "[2.13.1,2.14)",
+            "requires": "[2.13.1,2.14)",
+            "prefers": "2.13.1"
+          }
+        },
+        {
+          "group": "org.scala-lang.modules",
+          "module": "scala-parser-combinators_2.13.0-RC3",
+          "version": {
+            "strictly": "[1.1.2,)",
+            "requires": "[1.1.2,)",
+            "prefers": "1.1.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "strictly": "[1.9,)",
+            "requires": "[1.9,)",
+            "prefers": "1.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "strictly": "[2.8.6,)",
+            "requires": "[2.8.6,)",
+            "prefers": "2.8.6"
+          }
+        },
+        {
+          "group": "de.siegmar",
+          "module": "fastcsv",
+          "version": {
+            "strictly": "[2.0.0,)",
+            "requires": "[2.0.0,)",
+            "prefers": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MappingConverter-1.0.7.jar",
+          "url": "MappingConverter-1.0.7.jar",
+          "size": 410459,
+          "sha512": "5c380c4edb3ba9c659508fcc8804edd6462d6ef48f4787f83ffc7faaee5da9f1cf368a990c26267d2d58618b0bf515f70811fe7818bccf21c9037db1809e9827",
+          "sha256": "ae22ec3f4ac9a45e7a2a10b910c16823525bb7ce9be748837326fdcb7bf36adf",
+          "sha1": "ca26cbdb5d866d7ef1bb6ed11171ffa4374cf73f",
+          "md5": "76dcd9f6e62d3dd302e13e29586893a7"
+        }
+      ]
+    }
+  ]
+}
