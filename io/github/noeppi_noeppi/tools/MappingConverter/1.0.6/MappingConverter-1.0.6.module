@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.noeppi_noeppi.tools",
+    "module": "MappingConverter",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "5fsauwxzhjhl7lqzp5h67iid2a"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.scala-lang",
+          "module": "scala-library",
+          "version": {
+            "strictly": "[2.13.1,2.14)",
+            "requires": "[2.13.1,2.14)",
+            "prefers": "2.13.1"
+          }
+        },
+        {
+          "group": "org.scala-lang.modules",
+          "module": "scala-parser-combinators_2.13.0-RC3",
+          "version": {
+            "strictly": "[1.1.2,)",
+            "requires": "[1.1.2,)",
+            "prefers": "1.1.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "strictly": "[1.9,)",
+            "requires": "[1.9,)",
+            "prefers": "1.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "strictly": "[2.8.6,)",
+            "requires": "[2.8.6,)",
+            "prefers": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MappingConverter-1.0.6.jar",
+          "url": "MappingConverter-1.0.6.jar",
+          "size": 408821,
+          "sha512": "0d863571b4fdf58b83e9a8bbbb5d57f84095aa6911619f60db94618b153c750af433a82c4a6abac03e79c2059f88318bb6fe876aff4a55b3404285a31fe83f73",
+          "sha256": "7f05397cba6f71ff73b85fb7270c725a4e14a408b330f82f796b1123d64dc0bc",
+          "sha1": "c443e7549c1a260a16ca0a21fea9ff93b1863041",
+          "md5": "487331e09479319a6a260968140e6f90"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.scala-lang",
+          "module": "scala-library",
+          "version": {
+            "strictly": "[2.13.1,2.14)",
+            "requires": "[2.13.1,2.14)",
+            "prefers": "2.13.1"
+          }
+        },
+        {
+          "group": "org.scala-lang.modules",
+          "module": "scala-parser-combinators_2.13.0-RC3",
+          "version": {
+            "strictly": "[1.1.2,)",
+            "requires": "[1.1.2,)",
+            "prefers": "1.1.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "strictly": "[1.9,)",
+            "requires": "[1.9,)",
+            "prefers": "1.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "strictly": "[2.8.6,)",
+            "requires": "[2.8.6,)",
+            "prefers": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MappingConverter-1.0.6.jar",
+          "url": "MappingConverter-1.0.6.jar",
+          "size": 408821,
+          "sha512": "0d863571b4fdf58b83e9a8bbbb5d57f84095aa6911619f60db94618b153c750af433a82c4a6abac03e79c2059f88318bb6fe876aff4a55b3404285a31fe83f73",
+          "sha256": "7f05397cba6f71ff73b85fb7270c725a4e14a408b330f82f796b1123d64dc0bc",
+          "sha1": "c443e7549c1a260a16ca0a21fea9ff93b1863041",
+          "md5": "487331e09479319a6a260968140e6f90"
+        }
+      ]
+    }
+  ]
+}
