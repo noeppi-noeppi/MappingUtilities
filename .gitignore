@@ -2,5 +2,7 @@
 /mcp_patches/data
 /mcp_patches/mod
 /mcp_patches/mappings
+/mcp_unofficial/data
 /*.sh
 /*.py
+/file_hashes.json

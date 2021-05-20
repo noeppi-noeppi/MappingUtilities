@@ -1,0 +1,10 @@
+Duplicates with official mappings.
+
+This contains a list of mappings that are the same here as in the official mappings with
+a short sentence on why this name was chosen.
+
+
+field_216082_a    Condition array. The name conditions is used for this in MCP names at other places as well.
+field_236084_w_   Seed field retrieved from the codec.
+func_216079_f     Getter for field_216082_a (conditions)
+func_225422_a     `build` method in builder class.

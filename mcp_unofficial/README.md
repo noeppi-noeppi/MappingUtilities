@@ -1,0 +1,5 @@
+As the future of mcp naming project is currently unknown, this contains additional mappings that can be added on top of the already existing mappings to name more stuff.
+
+You can contribute to them by creating an [issue](https://github.com/noeppi-noeppi/MappingUtilities/issues/new?labels=enhancement&template=mappings.md). You are specifically allowed to contribute to this even if you have looked at the official obfuscation maps provided by Mojang already. However, you may not use these obfuscation maps in the process of finding the names for your contribution. Fore more information see [CONTRIBUTING](./CONTRIBUTING)
+
+Regarding duplicates with the official obfuscation maps, there's a list of all duplicates with the official names, that contains the SRG names of methods and fields that are the same as in te official mappings, and a short explanation on wy the name was chosen [here](./official_duplicates.txt).
