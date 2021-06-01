@@ -10,7 +10,7 @@ field_236145_a_   Codec fields are also named `CODEC` everywhere in the MCP name
 field_236164_i_   Density Offset field retrieved from the codec.
 field_236183_b_   Target field retrieved from the codec.
 field_236184_c_   Size field retrieved from the codec.
-field_236185_d_   Ofset field retrieved from the codec.
+field_236185_d_   Offset field retrieved from the codec.
 field_236190_a_   Codec fields are also named `CODEC` everywhere in the MCP names.
 field_236656_a_   Codec fields are also named `CODEC` everywhere in the MCP names.
 field_236657_b_   Distance field retrieved from the codec.
@@ -23,3 +23,5 @@ field_236667_d_   Salt field retrieved from the codec.
 func_216079_f     Getter for field_216082_a (conditions)
 func_225422_a     `build` method in builder class.
 func_236181_l_    Amplified getter method retrieved from the codec.
+func_243531_h     `move` is used for other actions to move the mutable blockpos a certain way in MCP names. This name was chosen to keep this consistent.
+func_244709_b     The result of this assigned to field_214963_f (protocolVersion) in 1.16.5. The name is derived from that field name.
