@@ -23,6 +23,8 @@ field_236667_d_   Salt field retrieved from the codec.
 func_216079_f     Getter for field_216082_a (conditions)
 func_225422_a     `build` method in builder class.
 func_234422_eK_   This method (canHunt) is used in conditions for setting the memory value field_234082_P_ (HUNTED_RECENTLY) which has its name from the identifier string used when its registered.
+func_234425_eN_   Bean style getter for data manager property `DANCING`
+func_234442_u_    Bean style setter for data manager property `DANCING`
 func_234451_A_    The method only gets the memory `ADMIRING_ITEM`. It is named `isAdmiringItem` by beans convention.
 func_236181_l_    Amplified getter method retrieved from the codec.
 func_242335_eK    Bean styled getter for property `immuneToZombification`. Name is derived from the read and write methods as it is used in the NBT.
