@@ -20,6 +20,7 @@ field_236664_a_   Codec fields are also named `CODEC` everywhere in the MCP name
 field_236665_b_   Spacing field retrieved from the codec.
 field_236666_c_   Separation field retrieved from the codec.
 field_236667_d_   Salt field retrieved from the codec.
+field_244549_a    Logger field for a class is named `LOGGER`.
 func_216079_f     Getter for field_216082_a (conditions)
 func_225422_a     `build` method in builder class.
 func_234422_eK_   This method (canHunt) is used in conditions for setting the memory value field_234082_P_ (HUNTED_RECENTLY) which has its name from the identifier string used when its registered.
