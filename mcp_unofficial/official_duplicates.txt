@@ -5,6 +5,9 @@ a short sentence on why this name was chosen.
 
 
 field_216082_a    Condition array. The name conditions is used for this in MCP names at other places as well.
+field_229020_a_   Named `markers` because its a map with all current markers (it maps block positions to markers).
+field_229024_a_   Contains the color of the marker. This is known because there are methods to extract red green blue and alpha parts which are used in func_229023_a_ (renderMarker) for color parameters.
+field_233605_i_   This field is named `updateInterval` as it's set by the method func_233608_b_ (updateInterval).
 field_236084_w_   Seed field retrieved from the codec.
 field_236145_a_   Codec fields are also named `CODEC` everywhere in the MCP names.
 field_236164_i_   Density Offset field retrieved from the codec.
@@ -20,9 +23,22 @@ field_236664_a_   Codec fields are also named `CODEC` everywhere in the MCP name
 field_236665_b_   Spacing field retrieved from the codec.
 field_236666_c_   Separation field retrieved from the codec.
 field_236667_d_   Salt field retrieved from the codec.
+field_242287_aj   Name of entity type (PIGLIN_BRUTE) found from string argument to the register method used to assign it.
 field_244549_a    Logger field for a class is named `LOGGER`.
+func_213416_eg    Gets whether the cat is lying (in the appropriate goals: CatLieOnBedGoal and MorningGiftGoal). Like other data manager properties, the getter and setter method are named by beans convention.
+func_213419_u     Controls whether the cat is lying (in the appropriate goals: CatLieOnBedGoal and MorningGiftGoal). Like other data manager properties, the getter and setter method are named by beans convention.
+func_213480_dY    Used only by the PounceGoal class. The fox flag is true while the goal is running (meaning the fox is in the process of pouncing.)
+func_213503_w     Lerps between fields field_213521_bO (crouchAmountO) and field_213520_bN (crouchAmount). Because these fields are named like this, this is named `getCrouchAmount`.
+func_213539_dW    The matching setter sets the sneeze counter to 0 (via func_213562_s) which implies this is a getter for whether the panda is sneezing.
+func_213556_dX    The matching setter is called with `true` as argument in `tryToSit`. That means this flag is the sitting flag and thus the getter is named `isSitting`.
+func_213564_eh    The matching setter is called in RollGoal to be true whenever the RollGoal is active. This means this is the flag for whether the panda is rolling with a getter in beans style being `isRolling`.
+func_213578_dZ    Checks whether field_213594_bD (EAT_COUNTER) is greater than zero which means the panda is eating. This gives the name `isEating`.
 func_216079_f     Getter for field_216082_a (conditions)
+func_221107_c     True for each recessive gene. The name `recessive` comes from the minecraft wiki.
 func_225422_a     `build` method in builder class.
+func_226511_et_   Getter for the attack damage attribute is named `getAttackDamage`.
+func_226517_es_   Getter for the attack damage attribute is named `getAttackDamage`.
+func_229023_a_    This method is called for each marker and calls render methods. As it redners one marker it was named `renderMarker`
 func_234422_eK_   This method (canHunt) is used in conditions for setting the memory value field_234082_P_ (HUNTED_RECENTLY) which has its name from the identifier string used when its registered.
 func_234425_eN_   Bean style getter for data manager property `DANCING`
 func_234442_u_    Bean style setter for data manager property `DANCING`
